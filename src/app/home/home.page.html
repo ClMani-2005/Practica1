@@ -1,31 +1,23 @@
 <ion-header>
-  <ion-toolbar color="secondary">
-    <ion-title>Página Principal</ion-title>
-  </ion-toolbar>
+<ion-toolbar color="primary">
+    <ion-title>
+      Mi primera App 23221112
+    </ion-title>
+
+</ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
-  <div class="welcome-container">
-    <h2>¡Bienvenido!</h2>
-    <p>Por favor, regístrate para continuar.</p>
-  </div>
+  <h2>Hola Mundo.</h2>
+  <p>Estas vacaciones solo existi </p>
 
-  <ion-list>
-    <ion-item>
-      <ion-input label="Nombre completo" labelPlacement="floating" [(ngModel)]="usuario.nombre" type="text"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-input label="Matrícula" labelPlacement="floating" [(ngModel)]="usuario.matricula" type="text"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-input label="Correo electrónico" labelPlacement="floating" [(ngModel)]="usuario.correo" type="email"></ion-input>
-    </ion-item>
-
-    <ion-button expand="block" class="ion-margin-top" (click)="guardarDatos()">
-      Registrarse y Continuar
-    </ion-button>
-  </ion-list>
-</ion-content>
+  <ion-button href="detalle"> 
+    Ir a detalles  
+  </ion-button>
+  <br>
+  <ion-button href="registro"> 
+    Ir a al registro  
+  </ion-button>
+    
+  </ion-content>
 
